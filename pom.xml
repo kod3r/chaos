@@ -23,7 +23,7 @@
         <scallop.version>0.9.2</scallop.version>
         <jersey.version>1.17.1</jersey.version>
         <metrics.version>3.0.0</metrics.version>
-        <jetty.version>8.1.11.v20130520</jetty.version>
+        <jetty.version>9.0.3.v20130506</jetty.version>
         <jackson.version>2.2.2</jackson.version>
         <hibernate.version>5.0.1.Final</hibernate.version>
         <mustache.version>0.8.12</mustache.version>
@@ -169,7 +169,7 @@
         </dependency>
         <dependency>
             <groupId>com.codahale.metrics</groupId>
-            <artifactId>metrics-jetty8</artifactId>
+            <artifactId>metrics-jetty9</artifactId>
             <version>${metrics.version}</version>
         </dependency>
         <dependency>

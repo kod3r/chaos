@@ -8,10 +8,8 @@ import com.google.inject.servlet.GuiceFilter
 import java.util
 import javax.servlet.DispatcherType
 import scala.{Array, Some}
-import com.codahale.metrics.jetty8.InstrumentedHandler
-import org.eclipse.jetty.server.handler.{ResourceHandler, RequestLogHandler, HandlerCollection}
 import com.codahale.metrics.jetty9.InstrumentedHandler
-import org.eclipse.jetty.server.handler.{RequestLogHandler, HandlerCollection}
+import org.eclipse.jetty.server.handler.{ResourceHandler, RequestLogHandler, HandlerCollection}
 import org.eclipse.jetty.util.ssl.SslContextFactory
 import java.io.File
 import javax.inject.Named
